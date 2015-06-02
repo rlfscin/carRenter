@@ -60,56 +60,16 @@
                 <asp:DropDownList ID="ddCity" runat="server">
                     <asp:ListItem>Chicago</asp:ListItem>
                 </asp:DropDownList>
-                <ol>
-                    <li class="car">
-                        <a href="#">
+                <asp:BulletedList ID="lstCars" runat="server">
+                    <asp:ListItem class="car" runat="server">
+                         href="#">
                             <img class="imgHomeCar" src="car/ferrari.jpg" />
                             <span>Ferrari</span>
                             <span class="info">Engine: 1.0</span>
                             <span class="info">Avalible</span>
-                        </a>
-                    </li>
-                    <li class="car">
-                        <a href="#">
-                            <img class="imgHomeCar" src="car/ferrari.jpg" />
-                            <span>Ferrari</span>
-                            <span class="info">Engine: 1.0</span>
-                            <span class="info">Avalible</span>
-                        </a>
-                    </li>
-                    <li class="car">
-                        <a href="#">
-                            <img class="imgHomeCar" src="car/ferrari.jpg" />
-                            <span>Ferrari</span>
-                            <span class="info">Engine: 1.0</span>
-                            <span class="info">Avalible</span>
-                        </a>
-                    </li>
-                    <li class="car">
-                        <a href="#">
-                            <img class="imgHomeCar" src="car/ferrari.jpg" />
-                            <span>Ferrari</span>
-                            <span class="info">Engine: 1.0</span>
-                            <span class="info">Avalible</span>
-                        </a>
-                    </li>
-                    <li class="car">
-                        <a href="#">
-                            <img class="imgHomeCar" src="car/ferrari.jpg" />
-                            <span>Ferrari</span>
-                            <span class="info">Engine: 1.0</span>
-                            <span class="info">Avalible</span>
-                        </a>
-                    </li>
-                    <li class="car">
-                        <a href="#">
-                            <img class="imgHomeCar" src="car/ferrari.jpg" />
-                            <span>Ferrari</span>
-                            <span class="info">Engine: 1.0</span>
-                            <span class="info">Avalible</span>
-                        </a>
-                    </li>
-                </ol>
+                        </>
+                    </asp:ListItem>
+                </asp:BulletedList>
             </section>
         </section>
         

@@ -11,6 +11,7 @@ namespace CarRenter
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            //Header Logged
             if (Page.IsPostBack)
             {
                 singIn.Visible = true;
@@ -24,6 +25,20 @@ namespace CarRenter
                 singOut.Visible = true;
                 loggedSpace.Visible = false;
                 logged.Visible = true;
+            }
+
+            //using (var contex = new CarRenterContex())
+            if(true)
+            {
+                //lstCars cars = contex.Cars();
+                //foreach (car car in cars)
+                if(true)
+                {
+                    ListItem li = new ListItem();
+                    li.Attributes.Add("class", "car");
+                    li.Text = "<h1>Rubens</h1>";
+                    lstCars.Items.Add(li);
+                }
             }
 
         }
