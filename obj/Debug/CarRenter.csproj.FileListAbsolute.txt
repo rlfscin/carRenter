@@ -1,0 +1,6 @@
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\bin\CarRenter.dll.config
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\bin\CarRenter.dll
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\bin\CarRenter.pdb
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\obj\Debug\CarRenter.csprojResolveAssemblyReference.cache
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\obj\Debug\CarRenter.dll
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\obj\Debug\CarRenter.pdb
