@@ -8,7 +8,7 @@ namespace CarRenter.Models
 {
     public class CarRenterContext : DbContext 
     {
-        public CarRenterContext() : base()
+        public CarRenterContext() : base("name=connString")
         {
             Database.SetInitializer<CarRenterContext>(new DropCreateDatabaseIfModelChanges<CarRenterContext>());
         }

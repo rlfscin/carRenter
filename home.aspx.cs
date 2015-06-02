@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using CarRenter.Models;
 
 namespace CarRenter
 {
@@ -26,6 +27,20 @@ namespace CarRenter
                 loggedSpace.Visible = false;
                 logged.Visible = true;
             }
+
+            //cities
+            using (var context = new CarRenterContext())
+            {
+                var cities = context.Cities;
+                foreach (var city in cities)
+                {
+                    ListItem li = new ListItem();
+                    li.Text = city.Name;
+                    li.Value = city.CityId.ToString();
+                    ddCity.Items.Add(li);
+                }
+            }
+
 
             //using (var contex = new CarRenterContex())
             if(true)

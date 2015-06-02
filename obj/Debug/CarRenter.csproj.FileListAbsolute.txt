@@ -10,3 +10,7 @@ C:\Users\Thiago\Desktop\Thiago\DePaul\User Interface Development for Interactive
 C:\Users\Thiago\Desktop\Thiago\DePaul\User Interface Development for Interactive Systems\Final Project\CarRenter\obj\Debug\CarRenter.csprojResolveAssemblyReference.cache
 C:\Users\Thiago\Desktop\Thiago\DePaul\User Interface Development for Interactive Systems\Final Project\CarRenter\obj\Debug\CarRenter.dll
 C:\Users\Thiago\Desktop\Thiago\DePaul\User Interface Development for Interactive Systems\Final Project\CarRenter\obj\Debug\CarRenter.pdb
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\bin\EntityFramework.dll
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\bin\EntityFramework.SqlServer.dll
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\bin\EntityFramework.xml
+c:\users\rubens\documents\visual studio 2013\Projects\CarRenter\CarRenter\bin\EntityFramework.SqlServer.xml

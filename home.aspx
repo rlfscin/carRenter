@@ -58,10 +58,9 @@
             </header>
             <section id="home" class="content">
                 <asp:DropDownList ID="ddCity" runat="server">
-                    <asp:ListItem>Chicago</asp:ListItem>
                 </asp:DropDownList>
                 <asp:BulletedList ID="lstCars" runat="server">
-                    <asp:ListItem class="car" runat="server">
+                    <asp:ListItem runat="server">
                          href="#">
                             <img class="imgHomeCar" src="car/ferrari.jpg" />
                             <span>Ferrari</span>
